@@ -1,6 +1,8 @@
 # staticserver-reload
-Node.js static fileserver and [reload-module](//www.npmjs.com/package/reload) for refreshing browser on front-end development
+Node.js static fileserver and [reload-module](//www.npmjs.com/package/reload) for refreshing browser on front-end development.
+
 Uses [supervisor](//github.com/petruisfan/node-supervisor) for restarting node-server.
+
 Install supervisor globally:
 ```
 npm install supervisor -g
