@@ -14,3 +14,15 @@ Add reload-script to your html-file:
 or with jade:
 script(src='/reload/reload.js')
 ```
+
+Place your served files in the public-directory or change the directory name in server.js:
+```
+var publicDir = path.join(__dirname, 'public')
+```
+
+Default port is 3000 or change in server.js:
+````
+app.set('port', process.env.PORT || 3000)
+````
+
+Run with `npm start` and browse to `http://localhost:3000`
